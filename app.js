@@ -4,6 +4,12 @@
 //let lastNumber = 8;
 //console.log(firstNumber, " ", +lastNumber); //
 
+//! Task 1 right version
+let number = 89;
+let firstNumber = parseInt(number / 10); //8.9
+let lastNumber = number % 10;
+console.log(firstNumber, " ", +lastNumber);
+
 //Second Question
 //let number = 198;
 //let lastNumber = number % 10;
