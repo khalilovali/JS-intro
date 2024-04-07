@@ -48,34 +48,28 @@ const perimeterofSquare = 4 * side;
 //let number = 20;
 //console.log(number % 10);
 
-//let number = 6789;
-
-// Initializing the result variable
-//let result = 0;
-
-//while(number>0){
-// Getting the rightmost digit
-//rightmost = number%10;
-
-//result = result*10 + rightmost;
-
-// Removing the rightmost digit from the number
-//number = Math.floor(number/10);}
-//console.log("Reversed number is : " + result)
+//11th question
+const number = 5679;
+const lastNumber = number % 10;
+const thirdNumber = parseInt(number / 10) % 10
+const secondNumber = parseInt(number / 100) % 10
+const firstNumber = parseInt(number / 1000);
+const reversedNumber = lastNumber * 1000 + thirdNumber * 100 + secondNumber * 10 + firstNumber
+console.log(reversedNumber)
 
 //12 Question
-//let number = 50;
+//let number = 55;
 //let price = 10;
-//console.log(number / price);
+//console.log(parseInt(number / price);
 
 //13 question
 //let x = 2;
-//let s = 6 * x * x;
-//let v = x * x * x;
+//let s = 6 * (x ** 2);
+//let v = (x ** 3);
 //console.log(v);
 
 //14 question
-let number = 150;
-console.log(number / 10);
-number = parseInt(4 + number / 10);
-//???
+let number = 156;
+const lastNumber = number % 10;
+const firstTwoNumber = parseInt(number / 10);
+console.log(`${lastNumber}${firstTwoNumber}`);
