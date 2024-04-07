@@ -17,25 +17,17 @@ console.log(firstNumber, " ", +lastNumber);
 //console.log(firstNumber * 10 + lastNumber); //
 
 //3 Question
-//let x = 4;
-//let y = 15;
-//console.log(x % y);
+let children = 4;
+let apples = 15;
+console.log(apples % children);
 
 //6thquestion
-//let length = 6; //
-//let width = 5; //
-//let perimeter; //
-//constant findPerimeter(l, w) {
-// return 2 * (l + w);}
-//perimeter = findPerimeter(length, width);
-//console.log(
-//"The perimeter of a rectangle with length " + length +" units and width " +    width +    " units is: " +    perimeter +   " units.");
+const width = 7;
+const length = 5;
+const perimetr = 2 * (width + length);
 
-//let side = 4;
-//function findPerimeter(side) {
-// return 4 * side;}
-//perimeter = findPerimeter(4 * side);
-//console.log(4 * 4);
+const side = 4;
+const perimeterofSquare = 4 * side;
 
 //7th question
 //let firstNumber = 25;
